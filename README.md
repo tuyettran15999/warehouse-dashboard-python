@@ -17,7 +17,9 @@ Analyze warehouse data from **Google BigQuery** and generate **5 key charts** to
 ```bash
 git clone https://github.com/tuyettran15999/warehouse-dashboard-python.git
 cd warehouse-dashboard-python
+
 2. Install packages:
+```bash
 pip install -r requirements.txt
 3. Set Google Cloud credentials:
 export GOOGLE_APPLICATION_CREDENTIALS="path/to/credentials.json"
