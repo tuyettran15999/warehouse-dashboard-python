@@ -21,21 +21,24 @@ Analyze warehouse data from **Google BigQuery** and generate **5 key charts** to
 ![Top 20 Items by Profit Margin Estimate](warehouse_dashboard_python/charts_output/cost_analysis.png)
 
 ## How to Run
-1. Clone repo:  
-` ```bash
-git clone https://github.com/tuyettran15999/warehouse-dashboard-python.git
+`1.` Clone repo:  
+`git clone https://github.com/tuyettran15999/warehouse-dashboard-python.git
 cd warehouse-dashboard-python`
-2. Install packages:
-` ```bash
-pip install -r requirements.txt`
-3. Set Google Cloud credentials:
-` ```bash
-export GOOGLE_APPLICATION_CREDENTIALS="path/to/credentials.json"`
-4. Run:
-` ```bash
-python warehouse.py`
+
+`2.` Install packages:
+`pip install -r requirements.txt`
+
+`3.` Set Google Cloud credentials:
+`export GOOGLE_APPLICATION_CREDENTIALS="path/to/credentials.json"` 
+
+`4.` Run:
+`python warehouse.py` 
 Charts will appear and also be saved in charts_output/.
-5. What’s Inside
-python_code → main code
-charts_output/ → generated charts
-raw_data/ → optional CSVs
+
+
+```markdown
+## What’s Inside
+
+- `python_code/` → main code  
+- `charts_output/` → generated charts  
+- `raw_data/` → optional CSVs
